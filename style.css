@@ -1,0 +1,79 @@
+:root {
+    --font0:'Passion One', cursive;
+    --font1: 'Sriracha', cursive;
+    --font2: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+h1 {
+    font-variant: small-caps;
+    font-family:var(--font0);
+    font-size:10vw;
+}
+
+h6 {
+    font-size: 1em;
+    font-family: var(--font2);
+}
+
+section {
+    padding: 10vh 30px;
+    box-shadow: 10px 10px 10px 10px black;
+}
+
+section p {
+    line-height: 7vw;
+    font-family: var(--font1);
+    font-size: 3.5vw;
+    padding-bottom: 2em;
+}
+section.img {
+    color: white;
+
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+}
+
+section.img > p {
+    background-color: rgba(0, 0, 0, 0.397);
+    padding: 5px;
+    display: inline-block;
+
+}
+
+section#img1 {
+    background-image: url('./imagens/background001.jpg');
+}
+section#img2 {
+    background-image: url('./imagens/background002.jpg');
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-family: var(--font2);
+    padding: 10px;
+    background-color: black;
+}
+
+a {
+    color: white;
+}
